@@ -144,7 +144,8 @@
   .itemCart__clear:hover {
     background-color: #f16d7f;
     color: #fff;
-    cursor: pointer; }
+    cursor: pointer;
+    outline: none; }
 
 .itemCart__continue {
   width: 235px;
@@ -158,7 +159,8 @@
   .itemCart__continue:hover {
     background-color: #f16d7f;
     color: #fff;
-    cursor: pointer; }
+    cursor: pointer;
+    outline: none; }
 
 .userInfo {
   display: flex;
@@ -185,7 +187,7 @@
 .userInfo__address {
   display: flex;
   flex-direction: column;
-  width: 30%; }
+  width: 335px; }
 
 .itemInfo__addressButton {
   width: 100px;
@@ -200,10 +202,74 @@
   .itemInfo__addressButton:hover {
     background-color: #f16d7f;
     color: #fff;
-    cursor: pointer; }
+    cursor: pointer;
+    outline: none; }
 
 .discount__info .discount__form {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  width: 335px; }
+
+.discount__info :nth-child(2) {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 38px;
+  margin-bottom: 25px; }
+
+.discount__button {
+  width: 118px;
+  height: 35px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  color: #4a4a4a;
+  font-size: 11px !important;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .discount__button:hover {
+    background-color: #f16d7f;
+    color: #fff;
+    cursor: pointer;
+    outline: none; }
+
+.totalBlock {
+  padding-top: 40px;
+  padding-right: 44px;
+  padding-left: 43px;
+  padding-bottom: 42px;
+  text-align: right;
+  width: 360px;
+  height: 214px;
+  background-color: #f5f3f3; }
+  .totalBlock :first-child {
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .totalBlock :first-child span {
+      padding-left: 20px; }
+  .totalBlock :nth-child(2) span {
+    padding-left: 20px;
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700; }
+
+.totalBlock__line {
+  width: 275px;
+  height: 1px;
+  background-color: #e2e2e2;
+  margin-top: 22px;
+  margin-bottom: 20px; }
+
+.proceed__Button {
+  width: 273px;
+  height: 50px;
+  background-color: #f16d7f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: none;
+  border: none; }
 
 /*# sourceMappingURL=basketStyle.css.map */
